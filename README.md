@@ -12,7 +12,7 @@ Never lose more than you put in with stop-loss orders and negative balance prote
 
 you must copy from symbol to PNL (ROE %)
 
-### Second, paste on Caclulator
+### Second, paste on Calculator
 
 ![paste](/img/paste.gif)
 
