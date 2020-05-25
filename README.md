@@ -27,3 +27,9 @@ you must click anywhere after pasted your data
 when pused Button with no data on SL/TP price Line, it sounds beep error once.
 
 or sounds beep repeatly shortly for successful save.
+
+## ver alpha
+
+need @mediaquery and css fix
+
+for only 1920 \* 1200 temporarlily
