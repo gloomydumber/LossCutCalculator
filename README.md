@@ -21,3 +21,9 @@ it's not based on jquery but vanilla javascript. (by onchange property)
 so this is not synchronizing - like one..
 
 you must click anywhere after pasted your data
+
+## Copy Function by Button
+
+when pused Button with no data on SL/TP price Line, it sounds beep error once.
+
+or sounds beep repeatly shortly for successful save.
