@@ -26,7 +26,7 @@ you must click anywhere after pasted your data
 
 when pused Button with no data on SL/TP price Line, it sounds beep error once.
 
-or sounds beep repeatly shortly for successful save.
+or sounds beep repeatly shortly on successful save.
 
 ## ver alpha
 
