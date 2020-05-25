@@ -33,3 +33,13 @@ or sounds beep repeatly shortly for successful save.
 need @mediaquery and css fix
 
 for only 1920 \* 1200 temporarlily
+
+## Caculation
+
+(시평가-진입가)\*개수 = PNL [개수는 음수가능]
+
+100 \* (PNL / 증거금) = ROE
+
+->
+
+(원하는손절가내지는익절가) 의 시평가 =[ (ROE*증거금) / (개수 *100) ]+ 진입가
