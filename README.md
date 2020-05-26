@@ -36,13 +36,7 @@ for only 1920 \* 1200 temporarlily
 
 ## Caculation
 
-$$ 시평가 = MP \ 진입가 = EP \ 개수 = S \ (음수가능) \ 증거금=M \ 손익절가=TP $$
-
-$$(MP - EP) * S = PNL $$
-
-$$ 100 * (PNL / M) = ROE $$
-
-$$ TP = [(ROE\*M)/(S*100)] + EP $$
+![calculation](/img/math.png)
 
 ```
 (시평가-진입가)\*개수 = PNL [개수는 음수가능]
