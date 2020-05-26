@@ -34,7 +34,7 @@ need @mediaquery and css fix
 
 for only 1920 \* 1200 temporarlily
 
-## Caculation
+## Calculation
 
 ![calculation](/img/math.png)
 
