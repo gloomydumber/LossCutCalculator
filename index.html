@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
     <title>Team Leverage</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="script.js"></script>
     <link rel="shortcut icon" href="img/favicon.ico" />
   </head>
@@ -16,47 +17,43 @@
           value=""
           id="calculation"
           type="text"
-          class=""
+          class="val"
           onchange="savecalValue()"
         />
       </div>
       <div class="col">
         <label class="active" for="size">크기*</label>
-        <input placeholder="0" id="size" type="text" class="" />
+        <input placeholder="0" id="size" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="entPrice">진입 가격*</label>
-        <input placeholder="0" id="entPrice" type="text" class="" />
+        <input placeholder="0" id="entPrice" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="markPrice">시장 가격</label>
-        <input placeholder="0" id="markPrice" type="text" class="" />
+        <input placeholder="0" id="markPrice" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="liqPrice">청산 가격</label>
-        <input placeholder="0" id="liqPrice" type="text" class="" />
+        <input placeholder="0" id="liqPrice" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="margRatio">증거금 비율</label>
-        <input placeholder="0" id="margRatio" type="text" class="" />
+        <input placeholder="0" id="margRatio" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="marg">증거금*</label>
-        <input placeholder="0" id="marg" type="text" class="" />
+        <input placeholder="0" id="marg" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="ROE">PNL (ROE%)</label>
-        <input placeholder="0" id="ROE" type="text" class="" />
+        <input placeholder="0" id="ROE" type="text" class="val" />
       </div>
       <div class="col">
         <label class="active" for="lossROE">손/익절기준 ROE(%)*</label>
-        <input
-          placeholder="0"
-          id="lossROE"
-          type="text"
-          class=""
-          onchange="cutCal();"
-        />
+        <input placeholder="0" id="lossROE" type="text" class="val" />
+        <!-- onchange="cutCal();"
+        /> -->
       </div>
       <div class="col">
         <label class="active" for="lossPrice">손/익절가</label>
@@ -83,5 +80,7 @@
     <div class="bigScreen">
       <span class="bigScreen__text">Team Leverage</span>
     </div>
+
+    <input id="testOnchange" type="text" value="안녕하세요." />
   </body>
 </html>

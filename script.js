@@ -60,3 +60,11 @@ function clipBcopy() {
     document.body.removeChild(dummy);
   }
 }
+
+$("#testOnchange").on("propertychange change keyup paste input", function () {
+  alert("change");
+});
+
+// $(".val").ready(function () {
+//   alert("hi");
+// });
