@@ -16,11 +16,7 @@ you must copy from symbol to PNL (ROE %)
 
 ![paste](/img/paste.gif)
 
-it's not based on jquery but vanilla javascript. (by onchange property)
-
-so this is not synchronizing - like one..
-
-you must click anywhere after pasted your data
+Applied jQuery for synchronized-like function (08/15/2020)
 
 ## Copy Function by Button
 
@@ -30,9 +26,7 @@ or sounds beep repeatly shortly on successful save.
 
 ## ver alpha
 
-need @mediaquery and css fix
-
-for only 1920 \* 1200 temporarlily
+applied @mediaquery (not perfect though)
 
 ## Calculation
 
