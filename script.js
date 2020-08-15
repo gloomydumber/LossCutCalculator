@@ -20,7 +20,7 @@ function cutCal() {
   var enter = document.getElementById("entPrice").value;
   enter = parseFloat(enter.replace(",", ""));
   var finalValue = parseFloat((settingROE * eviVal) / (balance * 100) + enter);
-  document.getElementById("lossPrice").value = finalValue;
+  document.getElementById("lossPrice").value = finalValue.toFixed(2);
 }
 /*
 function savelossValue(selectObject) {
@@ -61,10 +61,37 @@ function clipBcopy() {
   }
 }
 
-$("#testOnchange").on("propertychange change keyup paste input", function () {
-  alert("change");
+// jQuery src 여부 체크
+/* <script type="text/javascript">
+if (typeof jQuery == "undefined") {
+  alert("없음");
+} else {
+  alert("있음");
+}
+</script> */
+
+// 동기적으로 바이낸스 손절값을 계산해주는 함수
+$(document).ready(function () {
+  var oldVal = $(".val").val();
+  $(".val").on("propertychange change keyup paste", function () {
+    var currentVal = $(this).val();
+    if (currentVal == oldVal) {
+      return;
+    }
+    oldVal = currentVal;
+    cutCal();
+  });
 });
 
-// $(".val").ready(function () {
-//   alert("hi");
-// });
+// 동기적으로 바이낸스 복사 값을 처리해주는 함수
+$(document).ready(function () {
+  var oldVal = $(".binanceCal").val();
+  $(".binanceCal").on("propertychange change keyup paste", function () {
+    var currentVal = $(this).val();
+    if (currentVal == oldVal) {
+      return;
+    }
+    oldVal = currentVal;
+    savecalValue();
+  });
+});
