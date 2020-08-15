@@ -10,7 +10,7 @@ Never lose more than you put in with stop-loss orders and negative balance prote
 
 ![binanceposi](/img/binanceposi.png)
 
-you must copy from symbol to PNL (ROE %)
+you must copy from symbol to PNL (ROE %) or just type marked input(\*)
 
 ### Second, paste on Calculator
 
