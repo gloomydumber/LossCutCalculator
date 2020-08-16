@@ -20,7 +20,11 @@ function cutCal() {
   var enter = document.getElementById("entPrice").value;
   enter = parseFloat(enter.replace(",", ""));
   var finalValue = parseFloat((settingROE * eviVal) / (balance * 100) + enter);
-  document.getElementById("lossPrice").value = finalValue.toFixed(2);
+  if (finalValue) {
+    document.getElementById("lossPrice").value = finalValue.toFixed(2);
+  } else {
+    document.getElementById("lossPrice").value = "Value Error";
+  }
 }
 /*
 function savelossValue(selectObject) {
