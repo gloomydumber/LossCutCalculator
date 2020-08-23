@@ -14,7 +14,7 @@ you must copy from symbol to PNL (ROE %) or just type marked input(\*)
 
 ### Second, paste on Calculator
 
-![paste](/img/paste.gif)
+<p align="center"> ![paste](/img/paste.gif) </p>
 
 Applied jQuery for synchronized-like function (08/15/2020)
 
