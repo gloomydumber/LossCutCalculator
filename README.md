@@ -41,3 +41,13 @@ applied @mediaquery (not perfect though)
 
 (원하는손절가내지는익절가) 의 시평가 =[ (ROE*증거금) / (개수*100) ]+ 진입가
 ```
+
+## Log
+
+1. 진입 가격에 따른 손익절가 소수점 처리 필요
+
+2. Chrome Extension으로 제공
+
+3. future.binance URI 확인 후 자동 포지션 계산 제공
+
+4. Input 제한 TEST
