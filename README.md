@@ -51,3 +51,5 @@ applied @mediaquery (not perfect though)
 3. future.binance URI 확인 후 자동 포지션 계산 제공
 
 4. Input 제한 TEST
+
+5. 현물 계산 / 선물 계산 구분
